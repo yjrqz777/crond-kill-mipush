@@ -1,0 +1,1 @@
+ps -A|grep com.xiaomi.xmsf|awk '{print $2}'|xargs kill -9

@@ -1,0 +1,6 @@
+id=crond-kill-mipush
+name=定时kill-mipush服务，拒绝假死
+version=2023.2.25
+versionCode=1
+author=酷安ID:异境入侵者
+description=采用crond 命令运行，每隔15分钟执行一次，完全不耗电，日志在/data/media/0/Android/kill-mipush.log，限制10k
